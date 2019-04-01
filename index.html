@@ -6,22 +6,20 @@
 		<title>Startseite</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript"  src="js/wuerfel.js"></script>
 	</head>
 
-	<body>
+	<body onload="indexinit()">  
 		<div id="main-content">
 			<div class="dice" id="dice">?</div>
+			<div class="tweentext" id="tweentext">Unten klicken,<br> dann geht's zu meinem Würfel!</div>
 		</div>
 
-		<div id="main-content">
-			<div class="tweentext" id="tweentext">Hier geht's zu meinem Würfel!</div>
-		</div>
-
+		
 		<div id="controls">
-			<div class="rollButton" id="rollButton">ugh</div>
+			<a href="wuerfel.html"><div class="rollButton" id="rollButton">Würfeln!</div></a>
 		</div>
 
-		<a href="wuerfel.html">Los geht's!</a>
 	</body>
 
 </html>
