@@ -1,1 +1,1 @@
-# ckb-die
+# ckb-würfel
